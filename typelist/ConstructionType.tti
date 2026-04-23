@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="ConstructionType"
+  desc="Type of construction material used for the dwelling">
+
+  <typecode
+    code="frame"
+    name="Frame"
+    desc="Wood frame construction"/>
+
+  <typecode
+    code="joisted_masonry"
+    name="Joisted Masonry"
+    desc="Exterior walls are masonry like brick or stone"/>
+
+  <typecode
+    code="non_combustible"
+    name="Non-Combustible"
+    desc="Exterior walls and floors are made of non-combustible materials"/>
+
+  <typecode
+    code="masonry_nc"
+    name="Masonry Non-Combustible"
+    desc="Masonry exterior walls with non-combustible floors and roof"/>
+
+  <typecode
+    code="fire_resistive"
+    name="Fire Resistive"
+    desc="Heavy steel or concrete construction designed to resist fire"/>
+
+</typelist>

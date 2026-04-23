@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="Dwelling">
+
+  <column
+    name="HomeType_Ext"
+    desc="The type of the home (Villa, Apartment, etc.)"
+    nullok="true"
+    typelist="HomeType"/>
+
+  <column
+    name="ConstructionType_Ext"
+    desc="The type of construction material used"
+    nullok="true"
+    typelist="ConstructionType"/>
+
+  <column
+    name="SecurityType_Ext"
+    desc="The security systems installed in the dwelling"
+    nullok="true"
+    typelist="SecurityType"/>
+
+  <column
+    name="YearBuilt_Ext"
+    desc="The year the dwelling was constructed"
+    nullok="true"
+    type="integer"/>
+
+  <column
+    name="SquareFootage_Ext"
+    desc="Total area of the dwelling in square feet"
+    nullok="true"
+    type="integer"/>
+
+</extension>

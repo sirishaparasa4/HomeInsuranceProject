@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <DetailViewPanel
+    id="DwellingDetail">
+    <Variable
+      name="dwelling"
+      type="Dwelling"/>
+    <InputColumn>
+      <Label
+        label="&quot;Dwelling Physical Characteristics&quot;"/>
+      
+      <TypeKeyInput
+        id="HomeType"
+        label="&quot;Home Type&quot;"
+        value="dwelling.HomeType_Ext"
+        valueType="typekey.HomeType"
+        editable="true"
+        required="true"/>
+
+      <TypeKeyInput
+        id="ConstructionType"
+        label="&quot;Construction Type&quot;"
+        value="dwelling.ConstructionType_Ext"
+        valueType="typekey.ConstructionType"
+        editable="true"
+        required="true"/>
+
+      <TypeKeyInput
+        id="SecurityType"
+        label="&quot;Security System&quot;"
+        value="dwelling.SecurityType_Ext"
+        valueType="typekey.SecurityType"
+        editable="true"/>
+
+      <InputDivider/>
+
+      <TextInput
+        id="YearBuilt"
+        label="&quot;Year Built&quot;"
+        value="dwelling.YearBuilt_Ext"
+        editable="true"/>
+
+      <TextInput
+        id="SquareFootage"
+        label="&quot;Total Sq Footage&quot;"
+        value="dwelling.SquareFootage_Ext"
+        editable="true"/>
+    </InputColumn>
+  </DetailViewPanel>
+</PCF>

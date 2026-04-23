@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="SecurityType"
+  desc="Type of Security Systems installed in the home">
+
+  <typecode
+    code="smoke_alarm"
+    name="Smoke Alarm"
+    desc="Local or monitored smoke detection system"/>
+
+  <typecode
+    code="sprinkler"
+    name="Fire Sprinkler"
+    desc="Automatic fire sprinkler system"/>
+
+  <typecode
+    code="burglar_alarm"
+    name="Burglar Alarm"
+    desc="Security alarm for unauthorized entry"/>
+
+  <typecode
+    code="deadbolt"
+    name="Deadbolt Locks"
+    desc="Manual deadbolt locks on all exterior doors"/>
+
+  <typecode
+    code="central_monitored"
+    name="Centrally Monitored System"
+    desc="24/7 monitoring by a security agency"/>
+
+  <typecode
+    code="none"
+    name="None"
+    desc="No specific security systems installed"/>
+
+</typelist>

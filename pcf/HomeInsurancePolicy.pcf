@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<PCF
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../../pcf.xsd">
+  <Page
+    canEdit="true"
+    id="HomeInsurancePolicy"
+    title="&quot;Home Insurance Policy Detail&quot;">
+    <LocationRef
+      location="PolicyFile(policyPeriod)"/>
+    <Variable
+      name="policyPeriod"
+      type="PolicyPeriod"/>
+    <Screen
+      id="HomeInsurancePolicyScreen">
+      <Toolbar>
+        <EditButtons/>
+      </Toolbar>
+      <PanelRef
+        def="DwellingDetail(policyPeriod.Dwelling)"/>
+      
+      <DetailViewPanel>
+        <InputColumn>
+          <Label
+            label="&quot;Policy Financial Summary&quot;"/>
+          <MonetaryAmountInput
+            id="TotalInsuredValue"
+            label="&quot;Total Insured Value&quot;"
+            value="policyPeriod.TotalInsuredValue_Ext"
+            editable="true"/>
+          <BooleanRadioInput
+            id="DiscountApplied"
+            label="&quot;Applied Safety Discount&quot;"
+            value="policyPeriod.DiscountApplied_Ext"
+            editable="false"/>
+        </InputColumn>
+      </DetailViewPanel>
+    </Screen>
+  </Page>
+</PCF>

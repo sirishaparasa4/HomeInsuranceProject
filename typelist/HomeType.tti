@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<typelist
+  xmlns="http://guidewire.com/typelists"
+  name="HomeType"
+  desc="Type of Home">
+
+  <typecode
+    code="villa"
+    name="Villa"
+    desc="Independent Villa"/>
+
+  <typecode
+    code="apartment"
+    name="Apartment"
+    desc="Apartment or Flat"/>
+
+  <typecode
+    code="independenthouse"
+    name="Independent House"
+    desc="Independent House"/>
+
+  <typecode
+    code="townhouse"
+    name="Town House"
+    desc="Town House"/>
+
+</typelist>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<extension
+  xmlns="http://guidewire.com/datamodel"
+  entityName="PolicyPeriod">
+
+  <column
+    name="TotalInsuredValue_Ext"
+    desc="The total calculated value of the home and property"
+    nullok="true"
+    type="money"/>
+
+  <column
+    name="DiscountApplied_Ext"
+    desc="Whether any special security or multi-policy discount is applied"
+    nullok="true"
+    type="bit"/>
+
+  <column
+    name="PolicyTier_Ext"
+    desc="Internal tiering of the policy (Standard, Gold, Platinum)"
+    nullok="true"
+    type="shorttext"/>
+
+</extension>
